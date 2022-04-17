@@ -1,0 +1,144 @@
+html,
+body {
+  font-family: "Lato", "Noto Sans TC", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background-color: #f6f7f8;
+}
+
+/* Header */
+header {
+  height: 60px;
+  color: #666666;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+nav {
+  /*   outline: 3px solid tomato; */
+  max-width: 800px;
+  margin: 0 auto 0 auto;
+  padding: 0 20px 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #666666;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #00bbc9;
+}
+main {
+  /*   outline: 4px solid tomato; */
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+/* h2 h3可以讓所有的屬性都一樣 */
+h2 {
+  font-size: 28px;
+  margin: 24px 0 8px;
+}
+
+h3 {
+  font-size: 21px;
+  margin: 0 0 8px;
+  font-weight: 500;
+}
+section {
+  /*   outline: 4px solid tomato; */
+  margin-bottom: 48px;
+}
+
+p {
+  color: #666666;
+}
+
+/* 開始做personal information */
+/* 圖案較致中，就把圖案想程文字 */
+.avatar {
+  /*   outline: 4px solid tomato; */
+  text-align: center;
+}
+
+.avatar-img {
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-media-link {
+  color: #666666;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-media-link:hover {
+  /*   color: #ff6600; */
+  color: #00747c;
+}
+
+.skills {
+  /*   outline: 3px solid tomato; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill {
+  /*   outline: 3px solid blue; */
+  width: 31%;
+}
+
+.skill-name {
+  border-top: 2px solid #999999;
+  padding-top: 16px;
+}
+
+/* experience-section */
+hr {
+  border: 0px;
+  height: 1px;
+  background-color: #cccccc;
+  margin: 20px 0;
+}
+
+.company,
+.duration,
+.place {
+  color: #666666;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.fa-building,
+.fa-calendar-day,
+.fa-earth-asia,
+.fa-earth-europe {
+  /*   outline: 2px solid tomato; */
+  /*   padding-right: 5px; */
+  margin-right: 5px;
+}
+/* education-section */
