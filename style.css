@@ -7,6 +7,7 @@ body {
   background-color: #f6f7f8;
 }
 
+
 /* Header */
 header {
   height: 60px;
@@ -143,3 +144,16 @@ hr {
   margin-right: 5px;
 }
 /* education-section */
+ul {
+  color: #666666;
+}
+
+.course {
+  /*   outline: 3px solid tomato; */
+  margin-bottom: 1px;
+}
+
+.course2 {
+  /*   outline: 3px solid tomato; */
+  margin-top: 1px;
+}
