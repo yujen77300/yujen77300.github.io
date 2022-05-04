@@ -61,7 +61,7 @@ h3 {
 }
 section {
   /*   outline: 4px solid tomato; */
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -83,13 +83,13 @@ p {
 .name {
   text-align: center;
   font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .social-media {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .social-media-link {
